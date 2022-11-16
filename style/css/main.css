@@ -42,4 +42,12 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.hero__text {
+  display: inline-block;
+  padding: 4px 20px;
+  color: black;
+  -webkit-box-shadow: inset  0px 0px 7px 5px;
+          box-shadow: inset  0px 0px 7px 5px;
+}
 /*# sourceMappingURL=main.css.map */
