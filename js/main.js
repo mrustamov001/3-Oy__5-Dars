@@ -2,7 +2,12 @@ let money = prompt ("Sayohat uchun 8 317 488,6so'm miqdorida pulingiz bo'lishi t
 
 let param1 = document.querySelector(".hero__text");
 
-if(money >= 8317488){
+let dollor = (750 * 9433.34)
+let euro = (120 * 10354.03)
+
+let kassa = (dollor + euro)
+
+if(money >= kassa){
     param1.innerHTML = "Oq yo'l, Alisher!"
 }
 else{
